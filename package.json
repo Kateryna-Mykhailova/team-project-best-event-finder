@@ -1,16 +1,17 @@
 {
-  "name": "parcel-project-template",
+  "name": "team-project-best-event-findernpm",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Elena040683.github.io/team-project-find-best-events",
+  "homepage": "https://kateryna-mykhailova.github.io/team-project-best-event-finder/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project-find-best-events/"
+    "build": "parcel build src/*.html --public-url /team-project-best-event-finder/",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Kateryna-Mykhailova/team-project-best-event-finder"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
